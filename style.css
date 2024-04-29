@@ -1,0 +1,464 @@
+body {
+	background: black;
+}
+
+.header {
+	width: 100%;
+	height: 83px;
+	background-color: black;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding-bottom: 5px;
+}
+
+	.logo {
+		align-content: ;
+		background-color: black;
+		width: 21%;
+		height: 83px;
+		padding-left: 30px;
+	}
+
+	.navbar {
+		width: 7%;
+		height: 83px;
+		background-color: black;
+		justify-content: space-between;
+		align-content: center;
+		padding-left: 30px;
+	}
+
+.banner {
+	width: 100%;
+	height: 912px;
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url(images/herobanner.jpg);
+	background-position: 50%, 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+	.bannerbox {
+		width: 33.33%;
+		height: 912px;
+		background-color:;
+		display: flex;
+		flex-direction:column;
+		background-color:;
+
+	}
+
+	.bannerbox-top {
+		width: 100%;
+		height: 30px;
+		text-align: center;
+		background-color:;
+		align-items: center;
+
+	}
+
+	.bannerbox-bottom {
+		width: 100%;
+		height: 882px;
+		text-align: center;
+		background-color: ;
+		align-content: center;
+		text-align: center;
+		align-items: center;
+	}
+
+
+.mainarea {
+	width: 100%;
+	height: 1186px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+	.mainbox {
+		width: 44%;
+		height: 1186px;
+		background-color:black;
+		justify-content: center;
+		text-align: center;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top:100px;
+	}
+
+	.graphicboxL {
+		width: 28%;
+		height: 1186px;
+		background-color: black;
+		text-align: right;
+	}
+
+	.graphicboxR {
+		width: 28%;
+		height: 1186px;
+		background-color: black;
+	}
+
+.footer{
+	width: 100%;
+	height: 109px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footerlinks {
+	width: 22%;
+	height: 100px;
+	background-color: black
+}
+
+.footerinfo{
+	width: 12%;
+	height: 100px;
+	background-color: black;
+	text-align: center;
+
+}
+
+.subfooter{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: black;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.buttonspecial {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: basic;
+}
+
+.button-black:visited {
+	color: black;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+
+}
+
+.angandjack {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* fonts */
+
+.basic-button {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.basic-regular {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.basic-body {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+}
+
+.babylonica-regular {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.babylonica-banner {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-size: 96px;
+  color: white;
+  font-style: normal;
+}
+
+.basic-banner {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 24px;
+}
+
+.babylonica-logo {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: white;
+  font-style: normal;
+}
+
+.lexend-zetta-ourstory{
+font-family: "lexend zetta", sans-serif;
+font-weight: 400;
+font-size: 64px;
+color: white;
+
+}
+
+.lexend-zetta-menutitle{
+font-family: "lexend zetta", sans-serif;
+font-weight: 400;
+font-size: 40px;
+color: white;
+
+}
+
+.lexend-zetta-footer {
+font-family: "lexend zetta", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: white;
+}
+
+.basic-footer {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+}
+
+.gradient-to-bottom {
+	 mask-image: linear-gradient( black, transparent);
+
+}
+
+.gradient-to-right{
+	mask-image: linear-gradient( black, transparent);
+}
+
+/* menu page */
+
+
+.appetizerbox {
+	height: 742px;
+	width: 100%;
+	display: flex;
+	align-items: ;
+	flex-direction: row;
+	justify-content: center;
+	background-color: black;
+}
+
+.appetizercontainer {
+	height: 742px;
+	width: 59%;
+	background-color: #3C0D07;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 515px;
+}
+
+.appetizerimage {
+	position:absolute;
+    height: 420px;
+    width: 43%;
+    background-color: blue;
+    left: 200px;
+    top: 260px;
+}
+
+.appetizerimage img { height: 100%; width: 100% }
+
+.potsticker {
+	width: 100%;
+	display: none;
+/*	display: block;*/
+}
+
+
+
+.appetizerspace {
+	width: 33%;
+	height: 622px;
+	background-color:#3C0D07;
+}
+
+.appetizertext {
+	height: 612px;
+	width: 67%;
+	background-color: #3C0D07;
+	text-align: center;
+	line-height: 3rem;
+	padding-top: 10px;
+
+}
+
+.entreebox {
+	width: 100%;
+	height: 1500px;
+	background-color: black;
+	display: flex;
+	flex-direction:row;
+	justify-content:;
+
+
+}
+
+.entreecontainer {
+	width: 43%;
+	height: 1500px;
+	background-color: black;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.entreeimage1 {
+	width: 43%px;
+	height: 420px;
+	background-color: green;
+	
+
+}
+
+.entreeimage2 {
+	width: 43%px;
+	height: 420px;
+	background-color: orange;
+}
+
+.entreeimage {
+width: 100%;
+}
+
+
+.entreeimagecontainer {
+	width: 57%;
+	height: 1500px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 340px;
+
+
+}
+
+.entreetext {
+	width:90%;
+	height: 1490px;
+	background-color: #3C0D07;
+	line-height: 3rem;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+
+.soupbox {
+	width: 100%;
+	height: 642px;
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: black;
+}
+
+.soupimage {
+	position:absolute;
+    height: 420px;
+    width: 43%;
+    background-color: green;
+    left: 200px;
+    top: 2420px;
+}
+
+
+.soupcontainer {
+	height: 642px;
+	width: 59%;
+	background-color: #3C0D07;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 515px;
+	padding-left: 10px;
+}
+
+.soupspace {
+	width: 33%;
+	height: 622px;
+	background-color: #3C0D07;
+}
+
+.souptext {
+	height: 612px;
+	width: 67%;
+	background-color: #3C0D07;
+	text-align: center;
+	line-height: 3rem;
+	padding-top: 10px;
+
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+	.potsticker {
+		display: block;
+
+	}
+
+	.appetizerimage {
+		display: none;
+	}
+
+	.appetizercontainer {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+@media sceen and (min-width: 480px) {
+}
+
